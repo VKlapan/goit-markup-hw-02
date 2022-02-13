@@ -67,7 +67,24 @@ body {
   text-decoration: none;
 }
 
+.sub-title-invisible {
+}
+
+.sub-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-black-color);
+}
 /* header */
+
+.header {
+  background-color: #ffffff;
+}
 
 .header-logo-main-text,
 .header-logo-secondary-text {
@@ -110,4 +127,133 @@ body {
 /* hero */
 .hero {
   background-color: var(--section-background-color);
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: #188ce8;
+}
+
+/* why we*/
+
+.whywe-item-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-black-color);
+}
+
+.whywe-item-text {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+
+/* our team*/
+
+.ourteam {
+  background-color: #f5f4fa;
+}
+
+.ourteam-item {
+  background-color: #ffffff;
+}
+.ourteam-item-title {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.ourteam-item-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+
+/* footer*/
+
+.footer {
+  background-color: var(--section-background-color);
+}
+
+.footer-logo-main-text,
+.footer-logo-secondary-text {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.footer-logo-main-text {
+  color: #2196f3;
+}
+.footer-logo-secondary-text {
+  color: #000000;
+}
+
+.footer-address-link,
+.footer-email-link,
+.footer-phone-link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-address-link {
+  color: #ffffff;
+}
+
+.footer-email-link,
+.footer-phone-link {
+  color: rgba(255, 255, 255, 0.6);
 }
