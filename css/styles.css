@@ -56,7 +56,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-color);
-  background-color: #e5e5e5;
 }
 
 .list {
@@ -67,6 +66,9 @@ body {
   text-decoration: none;
 }
 
+.link.current {
+  color: var(--nav-hover-color);
+}
 .sub-title-invisible {
 }
 
