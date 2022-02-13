@@ -10,6 +10,8 @@ font: Medium 16px Roboto - h3-our-team, text-nav-portfolio
 font: Regular 16px Roboto - p, p-our-team, p-portfolio-items
 font: Bold 18px Roboto - h3-portfolio-items
 
+Roboto Medium-500 Black-800 Bold-700 Regular-400
+Raleway Bold-700
 
 
 color: #000000 logo
@@ -31,9 +33,15 @@ color: #000000 logo
 
 
 */
-
-* {
-}
-
 body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /*24px or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+  background-color: #e5e5e5;
 }
