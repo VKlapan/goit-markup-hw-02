@@ -16,12 +16,12 @@ Raleway Bold-700
 
 color: #000000 logo
 
-#212121 text-main-and-portfolio-nav, h2, h3
+- #212121 text-main-and-portfolio-nav, h2, h3
 
-#2196F3 button-hero
+#2196F3 logo-main-text, nav-item-hover, button-hero
 #188CE8 hover, button-hero
 
-#FFFFFF h1, text-button-hero, text-nav-footer
+- #FFFFFF h1, text-button-hero, text-nav-footer
 #C4C4C4 text-nav-contact-footer
 
 #E5E5E5 backgroung-why-we-and-what-we-do
@@ -33,8 +33,21 @@ color: #000000 logo
 
 
 */
+
+:root {
+  /* fonts */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* colors*/
+  --main-black-color: #212121;
+  --main-color: #757575;
+  --nav-hover-color: #2196f3;
+  --section-background-color: #2f303a;
+}
+
 body {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -42,6 +55,59 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--main-color);
   background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* header */
+
+.header-logo-main-text,
+.header-logo-secondary-text {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.header-logo-main-text {
+  color: #2196f3;
+}
+.header-logo-secondary-text {
+  color: #000000;
+}
+
+.header-nav-item-link,
+.header-contacts-item-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-item-link {
+  color: var(--main-black-color);
+}
+
+.header-contacts-item-link {
+  color: var(--main-color);
+}
+
+.header-nav-item-link:hover,
+.header-nav-item-link:focus,
+.header-contacts-item-link:hover,
+.header-contacts-item-link:focus {
+  color: var(--nav-hover-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--section-background-color);
 }
