@@ -54,25 +54,41 @@
     </header>
     <main>
       <!-- Section Portfolio Filtres-->
-      <section>
-        <h2>Виды работ</h2>
+      <section class="portfolio-menu">
+        <h2 class="sub-title-invisible">Виды работ</h2>
 
-        <nav>
-          <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+        <nav class="portfolio-menu-nav">
+          <ul class="portfolio-menu-list">
+            <li>
+              <button class="portfolio-menu-item" type="button">Все</button>
+            </li>
+            <li>
+              <button class="portfolio-menu-item" type="button">
+                Веб-сайты
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-menu-item" type="button">
+                Приложения
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-menu-item" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="portfolio-menu-item" type="button">
+                Маркетинг
+              </button>
+            </li>
           </ul>
         </nav>
       </section>
 
       <!-- Section Portfolio Items-->
-      <section>
-        <h2>Примеры работ</h2>
-        <ul>
-          <li>
+      <section class="portfolio-examples">
+        <h2 class="sub-title-invisible">Примеры работ</h2>
+        <ul class="portfolio-examples-list">
+          <li class="portfolio-examples-item">
             <img
               src="./images/technokriak.png"
               alt="Превью проекта Технокряк"
@@ -82,7 +98,7 @@
             <h3>Технокряк</h3>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/new_orlean_va_gold_star.png"
               alt="Превью проекта
@@ -93,7 +109,7 @@
             <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/seafood.png"
               alt="Превью проекта ресторан Морская еда"
@@ -103,7 +119,7 @@
             <h3>Ресторан <span lang="en">Seafood</span></h3>
             <p>Приложение</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/prime.png"
               alt="Превью проекта Прайм"
@@ -113,7 +129,7 @@
             <h3>Проект <span lang="en">Prime</span></h3>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/boxes.png"
               alt="Превью проекта Ящики"
@@ -123,7 +139,7 @@
             <h3>Проект <span lang="en">Boxes</span></h3>
             <p>Приложение</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/inspiration_has_no_borders.png"
               alt="Превью проекта Вдохновение без границ"
@@ -133,7 +149,7 @@
             <h3><span lang="en">Inspiration has no Borders</span></h3>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/limited_edition.png"
               alt="Превью проекта Издание Лимитэд Эдишн"
@@ -143,7 +159,7 @@
             <h3>Издание <span lang="en">Limited Edition</span></h3>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/lab.png"
               alt="Превью проекта ЛАБ"
@@ -153,7 +169,7 @@
             <h3>Проект <span lang="en">LAB</span></h3>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-examples-item">
             <img
               src="./images/growing_business.png"
               alt="Превью проекта Рост бизнеса"
@@ -166,12 +182,16 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html"><span>Web</span><span>Studio</span></a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a class="footer-logo-link" href="./index.html"
+        ><span class="footer-logo-main-txt">Web</span
+        ><span class="footer-logo-secondary-txt">Studio</span></a
+      >
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
             <a
+              class="footer-address-item-geolink"
               href="https://goo.gl/maps/3AkkoBd3nNiCAt4s5"
               target="_blank"
               rel="noreferrer noopener"
@@ -179,8 +199,16 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="footer-address-item">
+            <a class="footer-address-item-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <a class="footer-address-item-link" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
