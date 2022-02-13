@@ -124,6 +124,10 @@ body {
   color: var(--nav-hover-color);
 }
 
+.header-nav-item-link:active {
+  color: var(--nav-hover-color);
+}
+
 /* hero */
 .hero {
   background-color: var(--section-background-color);
@@ -215,6 +219,57 @@ body {
   /* identical to box height */
 
   text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+
+/* portfolio menu*/
+
+.portfolio-menu-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+  color: var(--main-black-color);
+}
+
+.portfolio-menu-btn:hover,
+.portfolio-menu-btn:active {
+  background-color: var(--nav-hover-color);
+  color: #ffffff;
+}
+
+.portfolio-examples-item {
+  background-color: #ffffff;
+}
+
+.portfolio-examples-item-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--main-black-color);
+}
+
+.portfolio-examples-item-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
   letter-spacing: 0.03em;
 
   color: var(--main-color);
